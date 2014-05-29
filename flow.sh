@@ -10,52 +10,52 @@ sudo ./flow.sh [parameter]
  
  Usable parameters:
  
-   --low     : low power
-   --mid     : mid power
-   --high    : high performance
-   --default : default value
-   --auto    : automatic
-   --dynamic : frequency depends on load
+   -l      : low power
+   -m      : mid power
+   -h      : high performance
+   -d      : default value
+   -auto   : automatic
+   -dyn    : frequency depends on load
      ";
 return ;}
  
  
 case "$1" in
---low)
+-l)
  
 echo profile > /sys/class/drm/card0/device/power_method
 echo low > /sys/class/drm/card0/device/power_profile
  
   ;;
  
---mid)
+-m)
  
 echo profile > /sys/class/drm/card0/device/power_method
 echo mid > /sys/class/drm/card0/device/power_profile
  
   ;;
  
---high)
+-h)
  
 echo profile > /sys/class/drm/card0/device/power_method
 echo high > /sys/class/drm/card0/device/power_profile
  
   ;;
  
---default)
+-d)
 echo profile > /sys/class/drm/card0/device/power_method
 echo default > /sys/class/drm/card0/device/power_profile
  
   ;;
  
---auto)
+-a)
  
 echo profile > /sys/class/drm/card0/device/power_method
 echo auto > /sys/class/drm/card0/device/power_profile
  
   ;;
  
---dynamic)
+-dyn)
 
 echo dynpm > /sys/class/drm/card0/device/power_method
  
