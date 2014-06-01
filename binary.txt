@@ -1,0 +1,54 @@
+ binary  oct dec hex asc sym text
+01100001 141  97  61  a   a  Lowercase-Letter-a
+01100010 142  98  62  b   b  Lowercase-Letter-b
+01100011 143  99  63  c   c  Lowercase-Letter-c
+01100100 144 100  64  d   d  Lowercase-Letter-d
+01100101 145 101  65  e   e  Lowercase-Letter-e
+01100110 146 102  66  f   f  Lowercase-Letter-f
+01100111 147 103  67  g   g  Lowercase-Letter-g
+01101000 150 104  68  h   h  Lowercase-Letter-h
+01101001 151 105  69  i   i  Lowercase-Letter-i
+01101010 152 106  6a  j   j  Lowercase-Letter-j
+01101011 153 107  6b  k   k  Lowercase-Letter-k
+01101100 154 108  6c  l   l  Lowercase-Letter-l
+01101101 155 109  6d  m   m  Lowercase-Letter-m
+01101110 156 110  6e  n   n  Lowercase-Letter-n
+01101111 157 111  6f  o   o  Lowercase-Letter-o
+01110000 160 112  70  p   p  Lowercase-Letter-p
+01110001 161 113  71  q   q  Lowercase-Letter-q
+01110010 162 114  72  r   r  Lowercase-Letter-r
+01110011 163 115  73  s   s  Lowercase-Letter-s
+01110100 164 116  74  t   t  Lowercase-Letter-t
+01110101 165 117  75  u   u  Lowercase-Letter-u
+01110110 166 118  76  v   v  Lowercase-Letter-v
+01110111 167 119  77  w   w  Lowercase-Letter-w
+01111000 170 120  78  x   x  Lowercase-Letter-x
+01111001 171 121  79  y   y  Lowercase-Letter-y
+01111010 172 122  7a  z   z  Lowercase-Letter-z
+
+00100000  40  32  20         Space
+
+00110001  61  49  31  1   1  Number One
+00110010  62  50  32  2   2  Number Two
+00110011  63  51  33  3   3  Number Three
+00110100  64  52  34  4   4  Number Four
+00110101  65  53  35  5   5  Number Five
+00110110  66  54  36  6   6  Number Six
+00110111  67  55  37  7   7  Number Seven
+00111000  70  56  38  8   8  Number Eight
+00111001  71  57  39  9   9  Number Nine
+00110001  61  49  31  1   1  Number One
+00110000  60  48  30  0   0  Number Zero
+
+00101110  56  46  2e  .   .  Period (Decimal Point)
+00101100  54  44  2c  ,   ,  Comma
+00111010  72  58  3a  :   :  Colon
+00101111  57  47  2f  /   /  Slash
+01011100 134  92  5c  \   \  Backslash
+01011111 137  95  5f  _   _  Underline
+00101101  55  45  2d  -   -  Hyphen (Minus)
+00101000  50  40  28  (   (  Open Parenthesis
+00101001  51  41  29  )   )  Close Parenthesis
+00111101  75  61  3d  =   =  Equality Sign
+00101011  53  43  2b  +   +  Plus
+00100100  44  36  24  $   $  Dollar Sign
