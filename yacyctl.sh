@@ -15,7 +15,7 @@ luncher for yacy luncher's :)
    -kill
    -reconfigure 
      ";
-return ;}
+}
  
  
 case "$1" in
